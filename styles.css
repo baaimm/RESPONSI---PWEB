@@ -1,0 +1,57 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: Viga;
+}
+
+body {
+	
+	background: gray;
+	height: 700px;
+}
+
+.main {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	width: fixed;
+	background: rgba(0,0,0,0.4);
+	padding: 25px;
+	border-radius: 15px;
+}
+
+.main h2 {
+	text-align: center;
+	color: #CCCCFF;
+	text-transform: uppercase;
+}
+
+.button {
+	width: 50px;
+	height: 50px;
+	font-size: 20px;
+	margin: 2px;
+	cursor: pointer;
+	border: none;
+	background: #CCCCFF;
+	color: black;
+	border-radius: 30px;
+	
+}
+
+.btn-blue {
+	background:black;
+	color:#CCCCFF;
+}
+
+.textarea {
+	width: 204px;
+	margin: 4px;
+	font-size: 20px;
+	padding: 10px;
+	border: none;
+	color: #CCCCFF;
+	border-radius: 25px;
+	text-align: right;
+}
